@@ -1,0 +1,43 @@
+h1 {
+    color: #1e525e;
+    text-shadow: 1px 2px 2px black, 0 0 25px rgb(249, 249, 249), 0 0 5px rgb(250, 250, 250);
+    text-align: center;
+}
+
+div.galeria {
+    margin: 10px 20px;
+    box-shadow: 0 4px 8px 0 rgb(122, 137, 147), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    float: left;
+    width: 350px;
+    /* Agregué 'px' al final para definir la unidad de medida */
+}
+
+div.galeria img {
+    width: 100%;
+    height: auto;
+}
+
+div.galeria:hover {
+    border: 1px solid #1e525e;
+    transform: rotate(-3deg);
+}
+
+div.pie {
+    text-align: center;
+    text-shadow: 2px 2px 5px rgb(6, 97, 182);
+    padding: 10px;
+}
+
+
+/* Nuevo apartado con el atributo clear */
+
+div.nuevo-apartado {
+    clear: both;
+    /* Asegura que el nuevo apartado esté debajo de los elementos flotantes anteriores */
+    margin-top: 20px;
+    /* Ajusta el margen superior para darle espacio */
+    text-align: center;
+    /* Centra el contenido del nuevo apartado */
+    font-size: 18px;
+    /* Tamaño de fuente para el nuevo apartado */
+}
